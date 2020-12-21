@@ -1,0 +1,4 @@
+# Created at 2020-06-20T17:08:46.115
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Personal\Defect Upload\LeadsSanity\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

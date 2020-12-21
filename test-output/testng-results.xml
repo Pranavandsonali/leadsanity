@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="72123" started-at="2020-12-08T17:21:01Z" finished-at="2020-12-08T17:22:13Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="72123" started-at="2020-12-08T17:21:01Z" finished-at="2020-12-08T17:22:13Z">
+      <class name="ArabBank.LeadsSanity.Bancassurance">
+        <test-method status="PASS" signature="DataBaseConnection()[pri:0, instance:ArabBank.LeadsSanity.Bancassurance@29ca901e]" name="DataBaseConnection" is-config="true" duration-ms="7189" started-at="2020-12-08T17:20:54Z" finished-at="2020-12-08T17:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataBaseConnection -->
+        <test-method status="PASS" signature="Configuration()[pri:0, instance:ArabBank.LeadsSanity.Bancassurance@29ca901e]" name="Configuration" is-config="true" duration-ms="124" started-at="2020-12-08T17:21:01Z" finished-at="2020-12-08T17:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configuration -->
+        <test-method status="PASS" signature="Scenerio_1_CallCenter()[pri:0, instance:ArabBank.LeadsSanity.Bancassurance@29ca901e]" name="Scenerio_1_CallCenter" duration-ms="71423" started-at="2020-12-08T17:21:01Z" finished-at="2020-12-08T17:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenerio_1_CallCenter -->
+        <test-method status="PASS" signature="onFinish(org.testng.ITestResult)[pri:0, instance:ArabBank.LeadsSanity.Bancassurance@29ca901e]" name="onFinish" is-config="true" duration-ms="5" started-at="2020-12-08T17:22:13Z" finished-at="2020-12-08T17:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Scenerio_1_CallCenter status=SUCCESS method=Bancassurance.Scenerio_1_CallCenter()[pri:0, instance:ArabBank.LeadsSanity.Bancassurance@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFinish -->
+        <test-method status="PASS" signature="endConfiguration()[pri:0, instance:ArabBank.LeadsSanity.Bancassurance@29ca901e]" name="endConfiguration" is-config="true" duration-ms="543" started-at="2020-12-08T17:22:13Z" finished-at="2020-12-08T17:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endConfiguration -->
+        <test-method status="PASS" signature="CloseDBConnection()[pri:0, instance:ArabBank.LeadsSanity.Bancassurance@29ca901e]" name="CloseDBConnection" is-config="true" duration-ms="1313" started-at="2020-12-08T17:22:13Z" finished-at="2020-12-08T17:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDBConnection -->
+      </class> <!-- ArabBank.LeadsSanity.Bancassurance -->
+    </test> <!-- Regression -->
+  </suite> <!-- TestSuite -->
+</testng-results>

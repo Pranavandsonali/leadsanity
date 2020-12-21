@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]">
+  <test name="Regression(failed)">
+    <groups>
+      <run>
+        <include name="CallCenterTestCases"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ArabBank.LeadsSanity.Bancassurance">
+        <methods>
+          <include name="Scenerio_5_CallCenter"/>
+          <include name="Scenerio_1_CallCenter"/>
+        </methods>
+      </class> <!-- ArabBank.LeadsSanity.Bancassurance -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

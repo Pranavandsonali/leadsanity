@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.454 s <<< FAILURE! - in TestSuite
+ArabBank.LeadsSanity.Bancassurance.Scenerio_1_CallCenter  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ArabBank.LeadsSanity.Bancassurance.Scenerio_1_CallCenter(Bancassurance.java:95)
+
+ArabBank.LeadsSanity.Bancassurance.Scenerio_5_CallCenter  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ArabBank.LeadsSanity.Bancassurance.Scenerio_5_CallCenter(Bancassurance.java:128)
+

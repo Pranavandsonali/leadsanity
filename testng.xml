@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+<listeners>
+<listener class-name="Utils.Listner"/>
+</listeners>
+  <test thread-count="5" name="Regression">
+  
+    <classes>
+      <class name="ArabBank.LeadsSanity.Bancassurance">
+     <methods>
+     <include name="Scenerio_1_CallCenter()"></include>
+     </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
